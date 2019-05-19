@@ -23,20 +23,24 @@
 }
 
 .padText {
-  padding-left: 30px;
+  padding-left: 50px;
 }
 
 .Text {
   text-align: left ;
+  padding-left: 30px;
 }
 .textRed {
   color: #fd0707;
 }
-
+.pText{
+  padding-left: 150px;
+}
 .iconBlue {
   font-size: 48px;
   color: #61dafb;
- 
+  padding-left: 30px;
+  
 }
 .app-left {
   padding-left: 10px;
@@ -46,7 +50,30 @@
  width:  70%;
 }
 
-
+.box{
+  width: 160px;
+  height: 115px;
+  background:rgb(56, 55, 55);
+  color: white;
+  text-align: center; 
+  padding: 30px;
+}
+.box2{
+  width: 160px;
+  height: 115px;
+  background:rgb(0, 0, 0);
+  color: white;
+  text-align: center; 
+  padding: 30px;
+}
+.box3{
+  width: 150px;
+  height: 100px;
+  background:rgb(0, 0, 0);
+  color: white;
+  text-align: center; 
+  padding-left: 60px;
+}
 
 @keyframes App-logo-spin {
   from {
